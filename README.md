@@ -7,14 +7,20 @@
 ![Roblox Studio](https://img.shields.io/badge/Roblox-Studio-00A2FF)
 ![Langue](https://img.shields.io/badge/interface-français-22D3EE)
 
-XozAI ajoute un **chat IA dans Roblox Studio**. Tu décris ce que tu veux, l'IA **agit pour de vrai**
-dans ta place : elle écrit des scripts Luau complets, construit des bâtiments en 3D, crée des interfaces,
-corrige du code, range le tout dans des `Model` propres et cadre la caméra sur ce qu'elle vient de faire.
+XozAI est un **outil de construction pour Roblox Studio**. Tu décris ce que tu veux, l'IA **agit pour
+de vrai** dans ta place : elle écrit des scripts Luau complets, construit des bâtiments en 3D, crée des
+interfaces, corrige du code, range le tout dans des `Model` propres et cadre la caméra sur ce qu'elle
+vient de faire.
+
+Tout se passe **dans l'éditeur**, pendant que tu construis. Tu n'as jamais besoin de lancer le jeu
+pour que ça marche.
 
 Ce n'est pas un chatbot qui te rend du code à copier-coller : ses blocs d'action sont **exécutés**.
 
 <p align="center">
   <a href="https://TON-PSEUDO.github.io/XozAI/"><strong>→ Voir le site et télécharger le plugin</strong></a>
+  <br />
+  <sub>Débutant complet ? Suis le <a href="TUTORIEL.md"><strong>tutoriel pas à pas</strong></a> (10 minutes, de l'installation au premier jeu généré).</sub>
 </p>
 
 ---
@@ -204,7 +210,7 @@ Le plugin affiche les erreurs telles quelles sous chaque réponse, avec leur cod
 - Le plugin **branche** une IA, il n'en fabrique pas une. La qualité du résultat dépend du modèle choisi.
 - Pas d'import de **meshes, textures, sons ou animations** : ces assets viennent du catalogue Roblox.
   L'IA travaille avec des primitives et du code.
-- Elle n'exécute pas les scripts qu'elle écrit : tu les testes en mode **Play**.
+- XozAI est un **outil d'édition** : il travaille dans Studio, à l'édition. À l'édition, Roblox ne fait pas tourner les scripts — c'est le fonctionnement normal du logiciel, pas une limite du plugin. Le mode **Play** (F5) ne sert que si *toi* tu veux vérifier le jeu.
 - C'est un outil de développement, pas un générateur de jeu clé en main. Tu gardes la direction créative
   et tu testes ce qui est produit.
 
