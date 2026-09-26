@@ -1,0 +1,16 @@
+{
+  "_commentaire": [
+    "Copie ce fichier en 'config.local.json' pour generer un plugin PERSONNEL",
+    "avec ton adresse et ta cle deja remplies (pratique pour t'installer en 10 secondes).",
+    "",
+    "  cp config.example.json config.local.json",
+    "  node build.mjs",
+    "",
+    "Le resultat apparait dans dist/private/ qui est ignore par git.",
+    "NE COMMITE JAMAIS config.local.json : ce depot est public.",
+    "Ne mets pas non plus de vraie cle ici, ce fichier-la est public."
+  ],
+  "baseUrl": "https://api.openai.com/v1",
+  "apiKey": "REMPLACE-PAR-TA-CLE",
+  "model": "gpt-4o"
+}

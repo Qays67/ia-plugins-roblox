@@ -1,0 +1,16 @@
+{
+  "_commentaire": [
+    "Fichier PRIVE : ignore par git, ne sera jamais publie.",
+    "Il sert a generer dist/private/XozAI-personnel.rbxmx avec la cle deja remplie.",
+    "",
+    "A FAIRE : 'baseUrl' doit etre corrigee. Le domaine xgpt.pro ne repond pas",
+    "(il est parke, mis en vente) : aucune API n'est derriere cette adresse.",
+    "Remplace-la par la vraie adresse de ton fournisseur, qui doit finir par /v1.",
+    "Verifie avec :  curl https://TON-ENDPOINT/v1/models -H \"Authorization: Bearer TA-CLE\"",
+    "",
+    "Ensuite : node build.mjs  ->  installe dist/private/XozAI-personnel.rbxmx"
+  ],
+  "baseUrl": "https://xgpt.pro/v1",
+  "apiKey": "xgpt_477fab5fd00d0d3a5c86eb882d346ddeb2e3356751a45ea91b89b7263ff1a306",
+  "model": "gpt-4o-mini"
+}

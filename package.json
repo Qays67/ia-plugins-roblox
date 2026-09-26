@@ -1,0 +1,16 @@
+{
+  "name": "xozai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plugin Roblox Studio : un assistant IA qui construit vraiment le jeu (scripts, builds, interface).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "stylua --check src",
+    "format": "stylua src",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "set-repo": "node scripts/set-repo.mjs"
+  },
+  "devDependencies": {}
+}
